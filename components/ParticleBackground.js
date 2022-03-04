@@ -19,7 +19,7 @@ export default function ParticleBackground() {
             {/* Greeting */}
             <div className='mt-40 flex flex-col justify-center items-center' >
                 <motion.div initial={{ opacity: 0, y: 200 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }} className='flex flex-col items-center justify-center w-full font-dmSans z-2'>
-                    <h1 className='text-white text-5xl md:text-6xl xl:text-7xl z-10'>hi, i`&apos;`m <span className='bg-gradient-to-r from-fuchsia-600 to-pink-600 font-bold bg-clip-text text-transparent'>vikram!</span></h1>
+                    <h1 className='text-white text-5xl md:text-6xl xl:text-7xl z-10'>hi, i&apos;m <span className='bg-gradient-to-r from-fuchsia-600 to-pink-600 font-bold bg-clip-text text-transparent'>vikram!</span></h1>
                     <h2 className='text-white text-3xl md:text-4xl lg:text-5xl mt-2'>cs student <span className='bg-gradient-to-r from-fuchsia-600 to-pink-600 bg-clip-text text-transparent'>+</span> dev</h2>
                     <h3 className='text-white mt-8 text-2xl md:text-2xl lg:text-3xl'><FontAwesomeIcon icon={faLocation} className='pr-4' /> NJ / NYC</h3>
                 </motion.div>
