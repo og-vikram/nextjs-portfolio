@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html, body{
-    background-color: #111111;
+    background-color: #060606;
 }
 #particleBack {
     height: calc(100vh-4rem);
