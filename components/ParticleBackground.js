@@ -108,14 +108,24 @@ export default function ParticleBackground() {
               className="z-10 hover:opacity-60 transition-opacity duration-200"
             />
           </a>
-          {/* <a href='https://instagram.com/og.vikram'><FontAwesomeIcon icon={faInstagram} className='z-10 hover:text-instagram transition-colors duration-200' /></a> */}
+          <a href="https://instagram.com/og.vikram">
+            <FontAwesomeIcon
+              icon={faInstagram}
+              className="z-10 hover:text-instagram transition-colors duration-200"
+            />
+          </a>
           <a href="mailto:vikram.sridharr@gmail.com">
             <FontAwesomeIcon
               icon={faEnvelopeOpen}
               className="z-10 hover:text-gmail transition-colors duration-200"
             />
           </a>
-          {/* <a href='https://twitter.com/ogvikram'><FontAwesomeIcon icon={faTwitter} className='z-10 hover:text-twitter transition-colors duration-200' /></a> */}
+          <a href="https://twitter.com/ogvikram">
+            <FontAwesomeIcon
+              icon={faTwitter}
+              className="z-10 hover:text-twitter transition-colors duration-200"
+            />
+          </a>
           <a href="https://open.spotify.com/user/mmarkiv7">
             <FontAwesomeIcon
               icon={faSpotify}
